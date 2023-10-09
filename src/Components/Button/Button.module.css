@@ -1,0 +1,23 @@
+.btn {
+	cursor: pointer;
+	border: none;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+.btnFilled {
+    padding: 10px 24px;
+    font-size: 0.875rem;
+    background-color: #6750A4;
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.btnFilled:hover {
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+}
+
+.btnFilled:active
+.btnFilled:focus {
+    background-color: rgba(103, 80, 164, 0.88)
+}

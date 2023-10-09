@@ -1,0 +1,35 @@
+.btn {
+	cursor: pointer;
+	border: none;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+.btnFilled {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    background-color: #6750A4;
+    color: #FFFFFF;
+    border-radius: 100px;
+    transition: box-shadow 0.2s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.btnFilled:hover {
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+}
+
+.btnFilled:active
+.btnFilled:focus {
+    background-color: rgba(103, 80, 164, 0.88)
+}
+
+.btnFilled a {
+    padding: 10px 50px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
